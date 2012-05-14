@@ -36,7 +36,7 @@ Using Rome you can parse the available RSS and Atom feeds. Without bothering
 about format and version of RSS feed. The core library depends on the JDOM XML
 parser.
 
-Atom is on the similar lines of RSS is another kind of feed. But it’s different in
+Atom is on the similar lines of RSS is another kind of feed. But itï¿½s different in
 some aspects as protocol, payloads.
 RSS is a method to share and publish contents. The contents may be any things
 from news to any little information. The main component is xml. Using xml you
@@ -44,17 +44,14 @@ can share your contents on web. At the same time you are free to get what you
 like from others.
 
 
-Dependency
-----------
-* * *
+## Dependency
+
 
 * J2SE 1.4+, JDOM 1.0
 * Jar files (rome-0.8.jar, purl-org-content-0.3.jar, jdom.jar)
 * Using Rome to read a Syndication Feed
 
-Read Feeds
------------
-* * *
+## Read Feeds
 
 ROME represents syndication feeds (RSS and Atom) as instances of the
 com.sun.syndication.synd.SyndFeed interface.
@@ -68,18 +65,16 @@ SyndFeedInput input = new SyndFeedInput();
 SyndFeed feed = input.build (new XmlReader (feedUrl));
 
 
-Requirements
-------------
-* * *
+## Requirements
+
 
 Latest Java Development Kit and Java Runtime Environment package are the only
 requirements as ths software is developed entirely in Java.
 OS: Windows/Ubuntu/Macintosh.
 
 
-Get Started
------------
-* * *
+## Get Started
+
 
 The software is really very simple to use. You have to manually specify the
 website rss feed link in the Add Subscription menu option. You can also remove
