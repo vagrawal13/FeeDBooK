@@ -2,9 +2,7 @@ FeeDBooK 1.0
 ============
 
 
-Introduction
-------------
-* * *
+## Introduction
 
 FeeDBooK is an RSS Reader desktop application based on Swing framework in
 Java for reading feeds from your favorite websites without the need to visit the
@@ -19,17 +17,13 @@ can go ahead and modify/improve upon the functionalities and features of the
 application as you like.
 
 
-Technical Specifications
-------------------------
-* * *
+## Technical Specifications
 
 The application makes use of the widely popular library ROME for parsing ATOM
 feeds. Apart from this various swing components have been programmed in a
 BORDER layout fashion to develop the GUI.
 
-ROME Java Library
------------------
-* * *
+## ROME Java Library
 
 ROME is an open source tool to parse, generate and publish RSS and Atom feeds.
 Using Rome you can parse the available RSS and Atom feeds. Without bothering
@@ -45,7 +39,6 @@ like from others.
 
 
 ## Dependency
-
 
 * J2SE 1.4+, JDOM 1.0
 * Jar files (rome-0.8.jar, purl-org-content-0.3.jar, jdom.jar)
